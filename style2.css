@@ -1,0 +1,56 @@
+body{
+
+    background: linear-gradient(-45deg, darkblue,darkred,darkorange,yellow);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    font-family: 'Allerta Stencil';
+    font-stretch: extra-expanded;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.container-box{
+    width: 850px; height: 550px; left: 300px; top: 300px; position: absolute; background: #9BDAE3; border-radius: 25px; border: 10px black double; 
+}
+.container-text{
+    padding-bottom: 50px; align-content: space-evenly; width: 704px; height: 234px; left: 368px; top: 375px; position: absolute; text-align: center; color: black; font-size: 36px; font-family: Inter; font-weight: 400; word-wrap: break-word; 
+}
+.author{
+    width: 358px; height: 65px; left: 736px; top: 725px; position: absolute; text-align: center; color: black; font-size: 24px; font-family: Inter; font-weight: 400; word-wrap: break-word
+}
+.nxt-btn{
+    width: 205px; height: 57px; left: 617px; top: 825px; position: absolute; background: #D8A9A9; border-radius: 50px; border: 1.50px black solid
+}
+/*.nxt-wrd{
+    width: 167px; height: 37px; left: 636px; top: 674px; position: absolute; text-align: center; color: black; font-size: 36px; font-family: Inter; font-weight: 400; 
+}*/
+.nxt-wrd{
+    width: 205px; height: 57px; left: 617px; top: 640px;  background: #D8A9A9; border-radius: 50px; border: 1.50px black solid
+}
+button{
+    transition: 500ms ease 1ms;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 50px black;
+    transform: scale(1.15)
+}
+.ttle{
+    width: 778px; height: 143px; left: 330px; top: 75px; position: absolute; text-align: center; color: black; font-size: 48px; font-family: Bona Nova; font-weight: 700; word-wrap: break-word;
+    animation: color-change 15s ease infinite;
+}
+@keyframes color-change {
+  0% { color: black; }
+  50% { color: white; }
+  100% { color: black; }
